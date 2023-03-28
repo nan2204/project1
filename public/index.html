@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -25,6 +26,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="app.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +41,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      function check(){
+        let myobject={name:"Madras"};
+        let newObject=myobject;
+        myobject.name="Coonoor";
+        let myarray=["a","e","i","o","u"];
+        let vowelArray=myarray;
+        myarray.push("u");
+        console.log(myobject);
+        console.log(newObject);
+        console.log(myarray);
+        console.log(vowelArray);
+        alert("Check the console output");
+
+      }
+    </script>
   </body>
+
 </html>
